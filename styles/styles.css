@@ -33,8 +33,11 @@ header {
   justify-content: space-between;
 }
 
+h1 {
+  padding: 0 0 0 20px;
+}
+
 nav {
-  height: 10px;
   line-height: 0;
   padding: 0 15px 0 0;
 }
@@ -42,14 +45,16 @@ nav {
 nav ul {
   margin: 0;
   padding: 0;
-  height: 130px;
   text-align: right;
 }
 
 nav ul li {
   display: inline-block;
+  font-size: 20px;
+  padding: 0 10px;
 }
 
-h1 {
-  padding: 0 0 0 20px;
+a {
+  text-decoration: none;
+  color: var(--main-text-color);
 }
